@@ -1,17 +1,18 @@
 #include <stdio.h>
-
 /**
  * main - entry block
- *
+ * 
  * Return: 0
  **/
-
 int main(void)
 {
-	char c;
+	int i = 0;
 
-	for (c = 'z'; c >= 'a'; c--)
-		putchar(c);
+	while (i < 10)
+	{
+		putchar(i % 10 + '0');
+		i++;
+	}
 	putchar('\n');
 	return (0);
 }
