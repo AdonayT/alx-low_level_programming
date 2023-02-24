@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
  * main - entry block
- * no argument
+ * @void: no argument
  * Return: 0
  **/
-
+ 
 int main(void)
 {
 	char ermias[] = "_putchar";

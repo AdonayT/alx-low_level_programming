@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints the alphabet in lowercase with nexw line at the end
  */
-
+ 
 void print_alphabet(void)
 {
 	char alpha;
